@@ -1,14 +1,19 @@
 <template>
-    <div class="home">
-    </div>
+	<main>
+		<banner
+			title="Welcome to my web site"
+			desctipt="this is very nice description (sorry my bad English =(...lorem don't working)"
+		/>
+	</main>
 </template>
 
 <script>
-// @ is an alias to /src
+import banner from '../components/banner'
 
 export default {
-  name: 'home',
-  components: {
-  }
+	name: 'home',
+	components: {
+		banner
+	}
 }
 </script>
