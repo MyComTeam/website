@@ -1,5 +1,5 @@
 <template>
-	<header>
+	<header class="header">
 		<div class="header__top-panel">
 			<div class="header__top-panel--navbar">
 				<nav>
@@ -15,6 +15,7 @@
 </template>
 
 <script>
+
 export default {
 	name: 'HeaderMain',
 	components: {
@@ -24,14 +25,21 @@ export default {
 
 <style lang="sass" commonstyle>
 	.header
+		padding: 15px 10px
+		box-shadow: 0px 2px 3px rgba(140, 140, 140, 0.29)
+		background: #fff
 		&__top-panel
 			display: flex
 			align-items: center
+			justify-content: flex-end
 			&--navbar
 				nav
+					margin-right: 25px
 					a
 						display: inline-block
 						text-decoration: none
+						color: #4d4d4d
+						margin-right: 10px
 			&--logotype-wrapper
 				img
 					width: 50px
