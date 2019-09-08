@@ -6,21 +6,21 @@
 			img="https://images.unsplash.com/photo-1566545455366-bcae28fd3929?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1956&q=80"
 		/>
 		<services-types>
-			<servicesCard
+			<services-card
 				title="Standat"
-				:list="['1','2','3']"
+				:list="['Минет','Классика','Массаж']"
 				desc="lorem"
 				link="#"
 			/>
-			<servicesCard
+			<services-card
 				title="Standat"
-				:list="['1','2','3']"
+				:list="['Минет','Классика','Массаж','Стриптиз','Горловой минет']"
 				desc="lorem"
 				link="#"
 			/>
-			<servicesCard
+			<services-card
 				title="Standat"
-				:list="['1','2','3']"
+				:list="['Минет','Классика','Массаж','Стриптиз','Горловой минет','Анал', 'Подчинение', 'Доминирование над вами', 'Доминирование над девушкой']"
 				desc="lorem"
 				link="#"
 			/>

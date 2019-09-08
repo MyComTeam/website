@@ -5,11 +5,11 @@
 		</div>
 		<div class="services-card__body">
 			<ul class="services-card__body--list">
-				<li v-for="(item, index) in list" :key="index">{{item}}</li>
+				<li v-for="(item, index) in list" :key="index" v-html="item"></li>
 			</ul>
 		</div>
 		<div class="services-card__footer">
-			<a :href="link.href||link">{{link.text||'Choose a service'}}</a>
+			<a :href="link.href||link">{{link.text||'Choose'}}</a>
 		</div>
 	</div>
 </template>

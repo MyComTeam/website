@@ -18,5 +18,4 @@ export default {
 </script>
 
 <style lang="sass" commonstyle>
-
 </style>

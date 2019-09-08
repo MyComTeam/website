@@ -1,8 +1,10 @@
 <template>
-	<div class="container">
-		<div class="services-list">
-			<slot/>
-		</div>
+	<div id="services">
+		<d-container>
+			<div class="services-list">
+				<slot/>
+			</div>
+		</d-container>
 	</div>
 </template>
 
@@ -13,8 +15,9 @@ export default {
 </script>
 
 <style lang="sass" commonstyle>
-	.services-list
+	#services
 		padding: 25px 0px
+	.services-list
 		display: flex
 		align-items: flex-start
 		flex-wrap: wrap
